@@ -1,7 +1,16 @@
-Resty
+Resty-lite
 =====
 
-*If you use resty and want to help maintain it, please let me know and I'll add you to the repo.*
+This is my fork of Resty (http://github.com/micha/resty). It is
+optimized for inclusion in other shell scripts (via cut-n-paste.)
+I've removed functionality, such as the -W and -V options. I've
+added some sanity checks where warranted, optimized code when
+possible, removed XDG support.
+
+Below is the original Resty README
+
+Resty
+======
 
 Resty is a tiny script wrapper for [curl](http://curl.haxx.se/). It
 provides a simple, concise shell interface for interacting with
